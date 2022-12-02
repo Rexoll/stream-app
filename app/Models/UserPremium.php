@@ -9,10 +9,14 @@ class UserPremium extends Model
 {
     use HasFactory;
 
-    protected $table = 'user_premium';
+    protected $table = 'user_premiums';
     protected $fillable = [
         'package_id',
         'user_id',
         'end_of_subscription'
     ];
+    public function Package()
+    {
+        return $this->belongsTo(Package::class);
+    }
 }
