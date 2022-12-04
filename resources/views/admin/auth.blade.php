@@ -19,7 +19,7 @@
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a href="{{ route('admin.login') }}"><b>Stream</b>Bootcamp</a>
+            <a href="{{ route('admin.login') }}"><b>Steam</b>App</a>
         </div>
         <!-- /.login-logo -->
         <div class="card">
