@@ -3,5 +3,5 @@
 @section('title', 'Dashboard');
 
 @section('content')
-<h1>hai ini cuma coba coba</h1>
+<h1>Dashboard App-Stream</h1>
 @endsection
